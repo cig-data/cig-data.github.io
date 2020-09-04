@@ -13421,11 +13421,6 @@ body {
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
 }
 
-/**
-* prism.js default theme for JavaScript, CSS and HTML
-* Based on dabblet (http://dabblet.com)
-* @author Lea Verou
-*/
 pre code {
   display: block;
   background: white;
@@ -15068,61 +15063,6 @@ section.markdown {
 }
 .splicing-checkbox-wrapper {
   margin-top: 20px;
-}
-
-/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
-/* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable */
-/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.exhibition-list > li {
-  width: 45%;
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 40px;
-  border-radius: 6px;
-  border: 1px solid #E8E8E8;
-  transform: translateY(0);
-  position: relative;
-  will-change: transform, box-shadow;
-  transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1), box-shadow 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-  border: none;
-  border-radius: 0;
-}
-.exhibition-list > li:nth-child(2n) {
-  margin-left: 10%;
-}
-.exhibition-list > li a,
-.exhibition-list > li a img {
-  display: block;
-}
-.exhibition-list > li h3 {
-  line-height: 42px;
-  color: #666;
-  background: #fff;
-}
-.exhibition-list > li:hover {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-  transform: translateY(-4px);
-}
-.exhibition-details {
-  margin-bottom: 60px;
-}
-.exhibition-details-demo {
-  margin-bottom: 40px;
-}
-.exhibition-details .replay-button {
-  float: right;
-  margin: -85px 10px;
-  position: relative;
-  bottom: 0;
-  right: 0;
-}
-.exhibition-details > pre {
-  max-height: 600px;
-  overflow: auto;
-}
-.exhibition-details h3 {
-  margin: 1em 0 0.6em 0;
 }
 
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */

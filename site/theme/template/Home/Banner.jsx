@@ -71,14 +71,14 @@ export default class Banner extends React.PureComponent {
                 <FormattedMessage id="app.home.learn-more" />
                 <i />
               </Link>
-              <a
+              {/* <a
                 className={`${this.props.className}-text-button template`}
                 href={`#`}
                 target="_blank"
               >
                 <FormattedMessage id="app.home.enter-editor" />
                 <i />
-              </a>
+              </a> */}
             </div>
           </QueueAnim>
           <TweenOne

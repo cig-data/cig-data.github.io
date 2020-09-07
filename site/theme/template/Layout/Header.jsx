@@ -156,7 +156,7 @@ class Header extends React.PureComponent {
               }}
             >
               <img className="logo-img" alt="img" height="24" src={LOGO} />
-              <span style={{color:'#fff',marginLeft:'12px',fontSize:'16px'}}> cig-data </span>
+              {/* <span style={{color:'#fff',marginLeft:'12px',fontSize:'16px'}}> cig-data </span> */}
               {/* <img alt="img" height="14" src="https://zos.alipayobjects.com/rmsportal/bNfCyCcgnyTgRmz.svg" /> */}
             </Link>
           </TweenOne>

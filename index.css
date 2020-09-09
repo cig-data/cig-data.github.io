@@ -13242,8 +13242,7 @@ body {
 }
 .header-wrapper .header .git-btn .gh-btn .gh-ico,
 .header-wrapper .header .git-btn .gh-count .gh-ico {
-  -webkit-filter: brightness(5);
-          filter: brightness(5);
+  filter: brightness(5);
   opacity: 0.5;
   transition: opacity 0.45s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -13278,8 +13277,7 @@ body {
   transform: translateY(50%);
 }
 .home .header-wrapper .header-logo .logo-img {
-  -webkit-filter: grayscale(1) brightness(3);
-          filter: grayscale(1) brightness(3);
+  filter: grayscale(1) brightness(3);
 }
 .home .header-wrapper .header .web-nav a,
 .home .header-wrapper .header .web-nav .lang-btn button {
@@ -13732,8 +13730,7 @@ footer .bottom-bar .heart {
   margin-left: 7px;
   background: url(https://zos.alipayobjects.com/rmsportal/dgqoflLasHqTmNM.svg) center no-repeat;
   background-size: contain;
-  -webkit-filter: brightness(1);
-          filter: brightness(1);
+  filter: brightness(1);
   height: 16px;
   display: inline-block;
   vertical-align: sub;
@@ -13742,9 +13739,7 @@ footer .bottom-bar .heart {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1;
-  transition: -webkit-filter 0.45s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: filter 0.45s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: filter 0.45s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-filter 0.45s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .home-wrapper .banner-wrapper .banner-text-button:hover {
   background: rgba(255, 255, 255, 0.15);
@@ -13916,8 +13911,7 @@ footer .bottom-bar .heart {
 }
 .home-wrapper .page1 .code-wrapper .code .code-left-bar-logo {
   margin-left: 15px;
-  -webkit-filter: brightness(0);
-          filter: brightness(0);
+  filter: brightness(0);
   opacity: 0.5;
 }
 .home-wrapper .page1 .code-wrapper .code .code-left-bar-logo img {
@@ -14884,8 +14878,7 @@ section.markdown {
 }
 .code-box .code-box-demo .queue-demo .demo-content .demo-page .box ul li:nth-child(3):before {
   transform: rotate(45deg);
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
+  filter: blur(2px);
 }
 .code-box .code-box-demo .queue-demo .demo-content .demo-footer {
   height: 40px;
@@ -14969,14 +14962,12 @@ section.markdown {
   transform: rotate(-45deg);
   width: 100px;
   text-align: center;
-  -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
+  filter: grayscale(0%);
   font-size: 12px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 .splicing .rc-autoresponsive-container > .item[disabled] * {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 .splicing .rc-autoresponsive-container > .item > a {
   display: block;

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="Description" content="让业务代码实现更简单" />
+  <title>cig-data React component</title>
+  <link rel="stylesheet" type="text/css" href="/index.css" />
+  <link rel="icon" href="" type="image/x-icon">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <script
+    src="https://gw.alipayobjects.com/os/lib/??babel-polyfill/6.20.0/dist/polyfill.min.js,es6-shim/0.35.3/es6-sham.min.js,es6-shim/0.35.3/es6-shim.min.js"></script>
+  <!--[if lte IE 10]>
+  <script src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,media-match/2.0.2/media.match.min.js"></script>
+  <![endif]-->
+  <script
+    src="https://as.alipayobjects.com/g/component/intl/1.0.1/??Intl.min.js,locale-data/jsonp/en.js,locale-data/jsonp/zh.js"></script>
+  <script>
+    (function () {
+      // 优先级提高到所有静态资源的前面，语言不对，加载其他静态资源没意义
+      var pathname = location.pathname;
+      
+      function isZhCN(pathname) {
+        return /-cn\/?$/.test(pathname);
+      }
+      function getLocalizedPathname(path, zhCN) {
+        var pathname = path.startsWith('/') ? path : '/' + path;
+        // if (!zhCN) { // to enUS
+        //   return /\/?index-cn/.test(pathname) ? '/' : pathname.replace('-cn', '');
+        // } else 
+        if (pathname === '/') {
+          return '/index-cn';
+        } else if (pathname.endsWith('/')) {
+          return pathname.replace(/\/$/, '-cn/');
+        }
+        return pathname + '-cn';
+      }
+      
+      if ( (pathname === '/' || pathname === '/index-cn')) {
+        var lang = (window.localStorage && localStorage.getItem('locale')) || (navigator.language && navigator.language.toLowerCase() === 'zh-cn' ? 'zh-CN' : 'en-US');
+        // safari is 'zh-cn', while other browser is 'zh-CN';
+        if ((lang === 'zh-CN') !== isZhCN(pathname)) {
+          location.pathname = getLocalizedPathname(pathname, lang === 'zh-CN');
+        }
+      }
+      document.documentElement.className += isZhCN(pathname) ? 'zh-cn' : 'en-us';
+    })()
+  </script>
+  <style>
+    #ant-motion-load {
+      display: none;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      -webkit-filter: url("#goo");
+      filter: url("#goo");
+      opacity: 0;
+      transition: opacity .5s;
+    }
+
+    #ant-motion-load ul {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+    }
+
+    #ant-motion-load ul li {
+      width: 18px;
+      height: 18px;
+      border-radius: 100%;
+      background: #019BF0;
+      position: absolute;
+      transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transform: scale(1);
+    }
+
+    #react-content:empty+#ant-motion-load {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="react-content"></div>
+  <div id="ant-motion-load">
+
+  </div>
+  <script>
+    
+  </script>
+  <script>
+    // Enable Google Analytics
+
+  </script>
+</body>
+<!--script src="/common.js"></script-->
+<script src="/index.js"></script>
+
+</html>

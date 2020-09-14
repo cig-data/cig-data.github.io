@@ -1,5 +1,4 @@
 ---
-order: 4
 title:
   zh-CN: 移动端时间选择
   en-US: '@cig/timepicker'
@@ -8,10 +7,13 @@ title:
 # @cig/timepicker
 The Time Picker control for React.
 
+## Demo
+[https://codesandbox.io/s/cigtimepicker-x09h5](https://codesandbox.io/s/cigtimepicker-x09h5)
+
 ## Installation and usage
 The easiest way to use @cig/timepicker is to install it from npm and build it into your app with Webpack.
 
-```js
+```bash
 npm i -S @cig/timepicker
 ```
 

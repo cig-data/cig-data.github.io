@@ -1,4 +1,5 @@
 ---
+order: 3
 title:
   zh-CN: 移动端下拉框选择
   en-US: '@cig/select'

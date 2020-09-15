@@ -1,4 +1,5 @@
 ---
+order: 4
 title:
   zh-CN: 移动端时间选择
   en-US: '@cig/timepicker'

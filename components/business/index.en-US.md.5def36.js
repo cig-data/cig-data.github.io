@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{1257:function(e,n){e.exports={content:["article"],meta:{order:1,title:"business",filename:"components/business/index.en-US.md"},toc:["ul"]}}}]);

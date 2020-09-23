@@ -91,7 +91,7 @@ class ComponentDoc extends React.PureComponent {
 
     const isNotTranslated = locale === 'en-US' && typeof title === 'object';
     return (
-      <DocumentTitle title={` ${subtitle || title[locale] || title} - cig-data`}>
+      <DocumentTitle title={` ${subtitle || title[locale] || title} - cig X`}>
         <article className="markdown">
           {isNotTranslated && (
             <Alert

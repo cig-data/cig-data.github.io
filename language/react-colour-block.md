@@ -2,7 +2,10 @@
 order: 1
 title:
   zh-CN: 彩色块
-  en-US: react-colour-block
+  en-US: '@cig/colour-block'
+category:
+  zh-CN: pc
+  en-US: pc
 ---
 
 ### 安装
@@ -13,7 +16,7 @@ $ npm i react-colour-block -S
 
 ## 组件基本参数说明
 
-以下描述 react-colour-block 里可使用的基本参数。
+以下描述 @cig/colour-block 里可使用的基本参数。
 
 ## data 彩色块数据 
 
@@ -69,4 +72,4 @@ onMouseLeave: ()=> {}, 鼠标移出任一彩色块时触发，返回彩色块索
 |   onMouseEnter          | 移入彩色块的操作,返回移入的彩色块索引 | function(e){} |
 |   onMouseLeave      | 移出彩色块的操作,返回移出的彩色块索引 | function(e){} |
 
-> 以上为react-colour-block目前可支持的参数。
+> 以上为@cig/colour-block目前可支持的参数。

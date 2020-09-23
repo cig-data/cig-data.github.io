@@ -2,7 +2,7 @@
 order: 2
 title: 
   zh-CN: 拖拽块
-  en-US: react-dnd-block
+  en-US: '@cig/dnd-block'
 ---
 ## zh-CN
 支持拖拽标签功能。

@@ -13,7 +13,7 @@ class Footer extends React.PureComponent {
           <Row>
             <Col md={6} sm={24} xs={24}>
               <div className="footer-center">
-                <h2>cig-data</h2>
+                <h2>cig X</h2>
                 <div>
                   <a target="_blank " href="https://github.com/cig-data">
                     <FormattedMessage id="app.footer.repo" />

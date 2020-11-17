@@ -2,7 +2,10 @@
 order: 2
 title:
   zh-CN: 拖拽块
-  en-US: react-dnd-block
+  en-US: '@cig/dnd-block'
+category:
+  zh-CN: pc
+  en-US: pc
 ---
 
 ## 怎么使用
@@ -15,7 +18,7 @@ $ npm i react-dnd-block -S
 
 ## 组件基本参数说明
 
-以下描述 react-dnd-block 里可使用的基本参数。
+以下描述 @cig/dnd-block 里可使用的基本参数。
 
 
 ## data 拖拽块数据
@@ -59,4 +62,4 @@ $ npm i react-dnd-block -S
 | onChange | 拖拽排序及删除操作 | function(e){} | - |
 
 
-> 以上为 react-dnd-block 里的动画可支持的参数
+> 以上为 @cig/dnd-block 里的动画可支持的参数

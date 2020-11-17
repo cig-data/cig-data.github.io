@@ -62,7 +62,7 @@ class Article extends React.PureComponent {
     }):null;
 
     return (
-      <DocumentTitle title={`${subtitle || title[locale] || title} - cig-data`}>
+      <DocumentTitle title={`${subtitle || title[locale] || title} - cig X`}>
         <article className="markdown">
           {isNotTranslated && (
           <Alert

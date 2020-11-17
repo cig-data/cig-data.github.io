@@ -56,8 +56,8 @@ export default class Banner extends React.PureComponent {
             className={`${this.props.className}-text`}
             delay={300}
           >
-            <h1 key="h1">cig-data Design</h1>
-            <h3 key="h3">react components of cig-data</h3>
+            <h1 key="h1">cig X Design</h1>
+            <h3 key="h3">react components of cig X</h3>
             <p key="p">
               <FormattedMessage id="app.home.introduce" />
               <br />

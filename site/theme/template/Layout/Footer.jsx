@@ -77,11 +77,8 @@ class Footer extends React.PureComponent {
           </Row>
         </div>
         <div className="bottom-bar">
-          Made
-          by
-          <a target="_blank" rel="noopener noreferrer" href="#">
-            cig-data
-          </a>
+          <a target="_blank" rel="noopener noreferrer" href="//beian.miit.gov.cn"
+          >黑ICP备10004407号-3</a>
         </div>
       </footer>
     );

@@ -17,6 +17,7 @@
     "rc-scroll-anim": "^2.6.1",
     "rc-texty": "^0.2.0",
     "rc-tween-one": "^2.4.0",
+    "react-beautiful-radio": "^1.0.0",
     "react-colour-block": "^1.0.0",
     "react-dnd-block": "^1.0.0"
   },

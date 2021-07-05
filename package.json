@@ -19,7 +19,8 @@
     "rc-tween-one": "^2.4.0",
     "react-beautiful-radio": "^1.0.0",
     "react-colour-block": "^1.0.0",
-    "react-dnd-block": "^1.0.0"
+    "react-dnd-block": "^1.0.0",
+    "react-mul-select": "^1.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.15.0",

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{1267:function(e,n){e.exports={content:["article",{}],meta:{order:1,title:{"zh-CN":"组件","en-US":"business"},filename:"components/business/index.zh-CN.md"},description:["section",["p","组件示例以及API文档；具体参数请参见 ",["a",{title:null,href:"/api/business"},"API"]],["h2","何时使用"],["ul",["li",["p","有类似功能需求时可使用；"]]]],toc:["ul"]}}}]);
